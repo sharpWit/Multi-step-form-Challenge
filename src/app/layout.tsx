@@ -1,8 +1,9 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { cn } from "@/libs/utils";
 import { myFont } from "@/config/font";
 import { siteConfig } from "@/config/site";
-import "./globals.css";
+import MainLayout from "@/components/layout/main-layout";
 
 export const metadata: Metadata = {
   title: {
@@ -31,7 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("antialiased", myFont.className)}>{children}</body>
+      <body className={cn("antialiased min-h-screen", myFont.className)}>
+        <MainLayout>{children}</MainLayout>
+      </body>
     </html>
   );
 }

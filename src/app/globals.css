@@ -5,20 +5,6 @@
 :root {
   --background: 0 0% 100%; /* White */
   --foreground: 0 0% 9%; /* Neutral-900 (approximation) */
-
-  /* Primary Colors */
-  --marine-blue: 213 96% 18%;
-  --purplish-blue: 243 100% 62%;
-  --pastel-blue: 228 100% 84%;
-  --light-blue: 206 94% 87%;
-  --strawberry-red: 354 84% 57%;
-
-  /* Neutral Colors */
-  --cool-gray: 231 11% 63%;
-  --light-gray: 229 24% 87%;
-  --magnolia: 217 100% 97%;
-  --alabaster: 231 100% 99%;
-  --white: 0 0% 100%;
 }
 
 @layer base {

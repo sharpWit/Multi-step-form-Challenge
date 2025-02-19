@@ -12,32 +12,24 @@ export default {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        xs: "320px",
-        sm: "375px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1200px",
-        "2xl": "1440px",
-      },
     },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          marineBlue: "hsl(var(--marine-blue))",
-          purplishBlue: "hsl(var(--purplish-blue))",
-          pastelBlue: "hsl(var(--pastel-blue))",
-          lightBlue: "hsl(var(--light-blue))",
-          strawberryRed: "hsl(var(--strawberry-red))",
+          marineBlue: "hsl(213, 96%, 18%)",
+          purplishBlue: "hsl(243, 100%, 62%)",
+          pastelBlue: "hsl(228, 100%, 84%)",
+          lightBlue: "hsl(206, 94%, 87%)",
+          strawberryRed: "hsl(354, 84%, 57%)",
         },
         neutral: {
-          coolGray: "hsl(var(--cool-gray))",
-          lightGray: "hsl(var(--light-gray))",
-          magnolia: "hsl(var(--magnolia))",
-          alabaster: "hsl(var(--alabaster))",
-          milk: "hsl(var(--milk))",
+          coolGray: "hsl(231, 11%, 63%)",
+          lightGray: "hsl(229, 24%, 87%)",
+          magnolia: "hsl(217, 100%, 97%)",
+          alabaster: "hsl(231, 100%, 99%)",
+          milk: "hsl(0, 0%, 100%)",
         },
       },
       fontFamily: {
